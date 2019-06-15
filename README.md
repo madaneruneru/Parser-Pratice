@@ -2,7 +2,15 @@
 
 Write a YaCC/bison Specification and build a YaCC/bison lexical analyzer with Flex to build a parser. 
 
-## about 
+## Usage
+
+    flex lex.l
+    
+    bison -d yacc.y
+    
+    gcc lex.yy.c yacc.tab.c
+
+## Running
  
 The parser needs to be able to print the analyzed source code lines on the screen after parsing the grammar.
 
