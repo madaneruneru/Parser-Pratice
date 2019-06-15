@@ -4,11 +4,11 @@ Write a YaCC/bison Specification and build a YaCC/bison lexical analyzer with Fl
 
 ## Usage
 
-    flex lex.l
+    $ flex lex.l
     
-    bison -d yacc.y
+    $ bison -d yacc.y
     
-    gcc lex.yy.c yacc.tab.c
+    $ gcc lex.yy.c yacc.tab.c
 
 ## Running
  
